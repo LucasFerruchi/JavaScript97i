@@ -31,7 +31,7 @@ let nombre1 = "guada";
 nombre1 = "carlos";
 console.log(nombre1);
 
-const nombre2 = "daniela";
+const nombre2 = "DaniEla cardozo";
 // nombre2 = "lucas";
 console.log(nombre2);
 
@@ -72,14 +72,22 @@ let nombres = ["lucas", "samuel", "guada", "mariano", 34, 76];
 console.log(nombres);
 
 //OBJETOS
-let alumno = {
+let usuarioDisney = {
   nombre: "lucas",
   apellido: "ferruchi",
-  edad: 39,
+  email: "lucas@lucas@age.com",
+  contraseña: "********",
+  recordarme: true,
   asistencia: true,
   domicilio: ["Muñecas", 130, "San Miguel de Tucuman"],
 };
 console.log(alumno);
+
+let rosario = {
+  email: "rosario@rosario.com",
+  contraseña: "*******",
+  recordarme: false,
+};
 
 //!-----------------------------------------------------------------
 //OJO CON EL +
@@ -88,8 +96,8 @@ let name = "Lucas";
 let lastName = "Ferruchi";
 let age = "39";
 
-console.log(name + " " + lastName + " " + age);
+// console.log(name + " " + lastName + " " + age);
 
 //Nombre: Lucas Apellido: Ferruchi Edad:39
 
-console.log("Nombre: " + name + " Apellido: " + lastName + " Edad: " + age);
+// console.log("Nombre: " + name + " Apellido: " + lastName + " Edad: " + age);
