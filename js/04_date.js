@@ -24,5 +24,7 @@ switch (dia) {
   case 6:
     console.log("Hoy es Sabado! 😁");
     break;
-  //Default
+  // default:
+  //   // accion;
+  //   break;
 }
